@@ -1,0 +1,123 @@
+import turtle
+screen = turtle.getscreen()
+screen.setup(600,600)
+
+tom = turtle
+tom.shape("turtle")
+r = 255
+g = 163
+b = 26
+
+tom.speed(0)
+tom.penup()
+tom.goto(-300,300)
+tom.pendown()
+for i in range(275):
+  tom.pencolor(r,g,b)
+  tom.seth(0)
+  tom.forward(600)
+  tom.seth(270)
+  tom.forward(1)
+  tom.seth(180)
+  tom.forward(600)
+  tom.seth(270)
+  tom.forward(1)
+  tom.seth(0)
+  g-=0.543
+  b-=0.086
+tom.penup()
+tom.goto(150,0)# begin the sun
+tom.speed(4)
+tom.left(90)
+tom.pendown()
+tom.color("yellow")
+tom.fillcolor("yellow")
+tom.begin_fill()
+tom.circle(150,180)
+tom.left(90)
+tom.forward(300)
+tom.end_fill()
+tom.penup()
+tom.goto(-300,-50)
+tom.color("DarkCyan")
+tom.pendown()
+tom.fillcolor("DarkCyan")
+tom.begin_fill()
+tom.forward(600)
+tom.right(90)
+tom.forward(330)
+tom.right(90)
+tom.forward(600)
+tom.right(90)
+tom.forward(330)
+tom.end_fill()
+tom.sety(-55)
+tom.right(90)
+for x in range(7): # waves
+  tom.dot(150)
+  tom.forward(100)
+r = 255
+g = 224
+b = 102
+tom.color(r,g,b) # sand
+tom.penup()
+tom.goto(-300,-219)
+tom.width(170)
+tom.pendown()
+tom.forward(600)
+tom.penup()
+tom.width(1)
+tom.goto(-180,265)
+tom.color("white")
+for y in range(0,3): # making 1st cloud
+  tom.forward(25)
+  tom.dot(60)
+  tom.forward(25)
+  tom.dot(85)
+tom.goto(175,125)
+for a in range(0,3):
+  tom.forward(25)
+  tom.dot(60)
+  tom.forward(25)
+  tom.dot(85)
+tom.goto(-350,110)
+for j in range(0,3):
+  tom.forward(25)
+  tom.dot(60)
+  tom.forward(25)
+  tom.dot(85)
+tom.penup()
+tom.width(3)
+tom.goto(35,235) # make a bird
+tom.pendown()
+tom.color("black")
+tom.right(150)
+tom.circle(80,-60)
+tom.right(150)
+tom.left(-150)
+tom.circle(80,-60) # done 
+tom.penup()
+tom.right(150)
+tom.goto(-275,160)
+tom.pendown()
+tom.right(150)
+tom.circle(80,-60)
+tom.right(150)
+tom.left(-150)
+tom.circle(80,-60) # done with bird 2
+tom.right(150)
+tom.penup()
+tom.goto(95,85)
+tom.pendown()
+tom.right(150)
+tom.circle(80,-60)
+tom.right(150)
+tom.left(-150)
+tom.circle(80,-60) # done with bird 3
+tom.penup()
+tom.right(150)
+tom.goto(-300,-135)
+tom.color("LightSkyBlue")
+tom.width(7.5)
+tom.pendown()
+tom.forward(600)

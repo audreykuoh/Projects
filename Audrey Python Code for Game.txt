@@ -1,0 +1,179 @@
+# press run! ^ plz dont change the code! press the little gray box
+# to enter ur answer! make sure a or b are in caps! ty!
+
+print("Hello!")
+name = input ("What's your name?")
+print("Welcome " + name + ", to my project, Crazee Cafes!")
+print("You are a collage student, and you have a free monday off.")
+print("It's afternoon, and a perfect day to go to a cafe.")
+print("Where would you like to go to?")
+print("A). coffee shop")
+print("B). cat cafe")
+answer = input("(type A or B in caps)")
+while answer != "A" and answer != "B":
+  answer = input("try again, type A or B")
+if answer == "A": # coffee shop start
+  print("You took your car and drove to the coffee shop.")
+  print("You are hungry and would like something to fill your rumbly stomach.")
+  print("What would you like to have?") # what do u want
+  print("A). a drink")
+  print("B). the waiter")
+  answer = input("(type A or B in caps)")
+  while answer != "A" and answer != "B":
+   answer = input("try again, type A or B")
+  if answer == ("A"): #drink
+    print("What would you like to drink?")
+    print("A). tea")
+    print("B). coffee")
+    answer = input("(You know the drill)")
+    while answer != "A" and answer != "B":
+     answer = input("try again, type A or B")
+    if answer == "A":
+       print("You had a nice hot tea.")
+       print("You went home happily.")
+       print("You won! Press run to play again!")
+    elif answer == "B":
+       print("You had so much caffeine you went crazy.")
+       print("What do you do?")
+       print("A). run like a maniac")
+       print("B). try to calm down")
+       answer = input("yup type A or B")
+       while answer != "A" and answer != "B":
+        answer = input("try again, type A or B")
+       if answer == "A":
+         print("You were kicked out and your stomach was not fufilled.")
+         print("You lost.") 
+       elif answer == "B":
+         print("You calmed down, and the coffee was good.")
+         print("You won!")
+  elif answer == "B": # eat waiter
+    print("You ate the waiter.")
+    print("Everyone is staring at you.")
+    print("What do you say?")
+    print("A). it wasn't me!")
+    print("B). confess")
+    answer = input("(type A or B)")
+    while answer != "A" and answer != "B":
+     answer = input("try again, type A or B")
+    if answer == "A":
+     print("You went home.")
+     print("I don't see how this made you happy but it did.")
+     print("So I guess you won")
+    elif answer == "B":
+      print("You confessed and were arrested.")
+      print("You are in the cop car.")
+      print("Do you escape?")
+      print("A). yass i like crime")
+      print("B). no")
+      answer = input("(type A or B)")
+      while answer != "A" and answer != "B":
+       answer = input("try again, type A or B")
+      if answer == "A":
+        print("Welcome to criminal life.")
+        print("You escaped, and now you win!")
+      elif answer == "B":
+        print("You went to jail for 20 years.")
+        print("You lost.")
+elif answer == "B": # cat cafe start
+  print("You walked to the cat cafe, and saw the cutest cat.")
+  print("You decided to cuddle the fluffy, adorable kitty cat.")
+  print("What cat did you see?")
+  print("A). a sunny orange persian")
+  print("B). a gray striped short hair")
+  answer = input("(type A or B)")
+  while answer != "A" and answer != "B":
+   answer = input("try again, type A or B")
+  if answer == "A":
+    print("The cat purred and cuddled with you.")
+    print("You loved it so much, you decided to stay til nighttime.")
+    print("The staff left to packup, but you see someone else.")
+    print("He is wearing a mask and striped shirt, so he is obviously a theif.")
+    print("He is coming to steal the cat, since persians are expensive.")
+    print("Oh no! What do you do?")
+    print("A). attack him!")
+    print("B). warn the staff")
+    answer = input("type A or B")
+    while answer != "A" and answer != "B":
+     answer = input("try again, type A or B")
+    if answer == "A":
+      print("You attacked the theif.")
+      print("The theif killed you, but the cat was perfectly fine (the theif could'nt catch it)")
+      print("You lost.")
+    elif answer == "B":
+      print("The guards came and attacked the theif.")
+      print("You are safe, but the cat is not.")
+      print("A). save the cat!")
+      print("B). be selfish and leave")
+      answer = input("(type A or B)")
+      while answer != "A" and answer != "B":
+       answer = input("try again, type A or B")
+      if answer == "A":
+        print("You are safe and so is the cat.")
+        print("The theif went to jail.")
+        print("The workers let you adopt the cat.")
+        answer = input("What are you naming the cat?")
+        print("You, and your cat " + answer + " win!")
+      elif answer == "B":
+        print("the cat died.")
+        print("You lost.")
+  elif answer == "B":
+    print("You tried to cuddle the cat.")
+    print("You ate fish for lunch, so the cat attacked you.")
+    print("You were not scarred badly, but the staff insist they take away the cat.")
+    print("Now what do you do?")
+    print("A). order")
+    print("B). leave")
+    answer = input("(type A or B)")
+    while answer != "A" and answer != "B":
+     answer = input("try again, type A or B")
+    if answer == "A":
+     print("What type of drink do you want?")
+     print("A). sweet")
+     print("B). savoury")
+     answer = input("(type A or B)")
+     while answer != "A" and answer != "B":
+      answer = input("try again, type A or B")
+     if answer == "A":
+       print("What do you want?")
+       print("A). lemonade")
+       print("B). sweet iced tea")
+       answer = input("(type A or B)")
+       while answer != "A" and answer != "B":
+        answer = input("try again, type A or B")
+       if answer == "A":
+         print("You had some lemonade.")
+         print("There was a nice lemon wheel on it, so you ate it.")
+         print("That was a mistake.")
+         print("A). throw up")
+         print("B). go home to throw up")
+         answer = input("(type A or B)")
+         while answer != "A" and answer != "B":
+          answer = input("try again, type A or B")
+         if answer == "A":
+           print("You threw up.")
+           print("Everyone is mad.")
+           print("You lost.")
+         elif answer == "B":
+           print("You went home and threw up.")
+           print("You won.")
+       elif answer == ("B"):
+         print("You had a nice sweet tea.")
+         print("You won!")
+     elif answer == "B":
+      print("What do you want?")
+      print("A). beer")
+      print("B). tea")
+      answer = input("(type A or B)")
+      while answer != "A" and answer != "B":
+       answer = input("try again, type A or B")
+      if answer == "A":
+       print("They gave you a bottle of beer.")
+       print("You couldn't get the cork out.")
+       print("You screamed.")
+       print("You were kicked out. You lost.")
+      elif answer == "B":
+       print("You had a nice tea.")
+       print("You won!")
+    elif answer == "B":
+      print("You left.")
+      print("You didn't win or lose.")
